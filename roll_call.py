@@ -1,11 +1,17 @@
 import os
 
-# List all the files in the directory
-filelist = os.listdir("./")
+def roll_call():
+    # List all the files in the directory
+    filelist = os.listdir("./")
 
-# Remove this file (let's avoid recursion!)
-filelist.remove("roll_call.py")
+    # Remove this file (let's avoid recursion!)
+    filelist.remove("roll_call.py")
+    filelist.remove(".git")
+    filelist.remove(".gitattributes")
 
-# Run all of the files
-for f in filelist: 
-    os.system(f'python {f}')
+    # Run all of the files
+    for f in filelist: 
+        os.system(f'python {f}')
+
+if __name__=="__main__":
+    roll_call()
