@@ -1,1 +1,1 @@
-print("Hello, my name is Eli and I'm a student in GIS 714.")
+print("Bonjour, my name is Eli and I'm a student in GIS 714.")
