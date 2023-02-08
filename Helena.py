@@ -1,1 +1,1 @@
-print("Ahojte! I'm Helena, GIS714 instructor.")
+print("Ahojte! I'm Helena, your GIS714 instructor.")
