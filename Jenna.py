@@ -1,1 +1,1 @@
-print("Hi my name is Jenna - I study remote sensing!)
+print("Hi my name is Jenna and I study remote sensing!")
